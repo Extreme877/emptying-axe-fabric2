@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "emptying_axe",
+  "version": "${version}",
+  "name": "Emptying Axe",
+  "description": "Sneak + right-click containers to empty them.",
+  "authors": [
+    "you"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yourname.emptyingaxe.EmptyingAxeMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4"
+  }
+}
